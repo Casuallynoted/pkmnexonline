@@ -1,0 +1,972 @@
+Sun Dec 22 22:00:17 ora solare Europa occidentale 2013:
+undefined method `[]' for nil:NilClass
+PokemonField:1426
+PokemonField:1423:in `call'
+PBEvent:54:in `trigger'
+PBEvent:49:in `each'
+PBEvent:49:in `trigger'
+Game_Character_2:67:in `update_move'
+Game_Character_2:6:in `update_old2'
+Walk_Run:96:in `update_rmxos_later'
+(RMX-OS) Script:3231:in `update'
+(RMX-OS) Script:880:in `update_map_players'
+(RMX-OS) Script:880:in `each_value'
+(RMX-OS) Script:880:in `update_map_players'
+(RMX-OS) Script:3751:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sun Dec 22 22:07:21 ora solare Europa occidentale 2013:
+¡El jugador no tiene Pokémon sanos!
+PokeBattle_OnlineBattle:2210:in `pbStartBattleCore'
+PokeBattle_OnlineBattle:2068:in `pbStartBattle'
+BattleConnect:245:in `start_battle'
+BattleConnect:225:in `check_battle'
+BattleConnect:82:in `handle'
+BattleConnect:62:in `update'
+BattleConnect:45:in `main'
+BattleConnect:43:in `loop'
+BattleConnect:50:in `main'
+(RMX-OS) Main:47
+
+Sat Dec 28 22:32:27 ora solare Europa occidentale 2013:
+Trainer has no unfainted Pokémon
+PokeBattle_OnlineBattle:2238:in `pbStartBattleCore'
+PokeBattle_OnlineBattle:2143:in `pbStartBattle'
+BattleConnect:245:in `start_battle'
+BattleConnect:225:in `check_battle'
+BattleConnect:82:in `handle'
+BattleConnect:62:in `update'
+BattleConnect:45:in `main'
+BattleConnect:43:in `loop'
+BattleConnect:50:in `main'
+(RMX-OS) Main:47
+
+Sat Dec 28 22:32:35 ora solare Europa occidentale 2013:
+Player has no unfainted Pokémon
+PokeBattle_OnlineBattle:2285:in `pbStartBattleCore'
+PokeBattle_OnlineBattle:2143:in `pbStartBattle'
+BattleConnect:245:in `start_battle'
+BattleConnect:225:in `check_battle'
+BattleConnect:82:in `handle'
+BattleConnect:62:in `update'
+BattleConnect:45:in `main'
+BattleConnect:43:in `loop'
+BattleConnect:50:in `main'
+(RMX-OS) Main:47
+
+Sat Dec 28 22:34:30 ora solare Europa occidentale 2013:
+Trainer has no unfainted Pokémon
+PokeBattle_OnlineBattle:2238:in `pbStartBattleCore'
+PokeBattle_OnlineBattle:2143:in `pbStartBattle'
+BattleConnect:245:in `start_battle'
+BattleConnect:225:in `check_battle'
+BattleConnect:82:in `handle'
+BattleConnect:62:in `update'
+BattleConnect:45:in `main'
+BattleConnect:43:in `loop'
+BattleConnect:50:in `main'
+(RMX-OS) Main:47
+
+Wed May 21 09:30:25 Eastern Daylight Time 2014:
+undefined method `isMega?' for #<PokeBattle_FakeBattler:0xb2d6ad8>
+PokeBattle_ActualScene:748:in `refresh'
+PokeBattle_ActualScene:651:in `initialize'
+PokeBattle_ActualScene:1886:in `new'
+PokeBattle_ActualScene:1886:in `pbStartBattle'
+PokeBattle_SafariZone:101:in `pbStartBattle'
+PokemonSafari:114:in `pbSafariBattle'
+PokemonSafari:113:in `pbSceneStandby'
+PokemonSafari:115:in `pbSafariBattle'
+PokemonSafari:112:in `pbBattleAnimation'
+PokemonSafari:112:in `pbSafariBattle'
+PokemonSafari:102
+PokemonSafari:96:in `call'
+PBEvent:54:in `trigger'
+PBEvent:49:in `each'
+PBEvent:49:in `trigger'
+PokemonField:1001:in `pbWildBattle'
+PokemonField:1472:in `pbBattleOnStepTaken'
+PokemonField:1496:in `pbOnStepTaken'
+Game_Player_:449:in `update_old'
+Walk_Run:75:in `update_network_later'
+(RMX-OS) Script:3371:in `update'
+Scene_Map:104:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Wed May 21 09:52:00 Eastern Daylight Time 2014:
+Script error within event 2, map 9 (Cedolan City Poké Center):
+Exception: NoMethodError
+Message: (eval):1:in `pbExecuteScript'undefined method `pbPokemonFollow' for #<Interpreter:0xb24b6e0>
+***Full script:
+pbPokemonFollow(8)
+
+Interpreter**:243:in `pbExecuteScript'
+Interpreter**:1623:in `eval'
+Interpreter**:243:in `pbExecuteScript'
+Interpreter**:1623:in `command_355'
+Interpreter**:494:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+
+Interpreter**:276:in `pbExecuteScript'
+Interpreter**:1623:in `command_355'
+Interpreter**:494:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Wed May 21 09:55:41 Eastern Daylight Time 2014:
+Script error within event 2, map 9 (Cedolan City Poké Center):
+Exception: NoMethodError
+Message: (eval):1:in `pbExecuteScript'undefined method `pbPokemonFollow' for #<Interpreter:0xae3b6e0>
+***Full script:
+pbPokemonFollow(8)
+
+Interpreter**:243:in `pbExecuteScript'
+Interpreter**:1623:in `eval'
+Interpreter**:243:in `pbExecuteScript'
+Interpreter**:1623:in `command_355'
+Interpreter**:494:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+
+Interpreter**:276:in `pbExecuteScript'
+Interpreter**:1623:in `command_355'
+Interpreter**:494:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Wed May 21 10:00:19 Eastern Daylight Time 2014:
+undefined method `isMega?' for #<PokeBattle_FakeBattler:0xb065d68>
+PokeBattle_ActualScene:748:in `refresh'
+PokeBattle_ActualScene:651:in `initialize'
+PokeBattle_ActualScene:1886:in `new'
+PokeBattle_ActualScene:1886:in `pbStartBattle'
+PokeBattle_SafariZone:101:in `pbStartBattle'
+PokemonSafari:114:in `pbSafariBattle'
+PokemonSafari:113:in `pbSceneStandby'
+PokemonSafari:115:in `pbSafariBattle'
+PokemonSafari:112:in `pbBattleAnimation'
+PokemonSafari:112:in `pbSafariBattle'
+PokemonSafari:102
+PokemonSafari:96:in `call'
+PBEvent:54:in `trigger'
+PBEvent:49:in `each'
+PBEvent:49:in `trigger'
+PokemonField:1001:in `pbWildBattle'
+PokemonField:1472:in `pbBattleOnStepTaken'
+PokemonField:1496:in `pbOnStepTaken'
+Game_Player_:449:in `update_old'
+Walk_Run:75:in `update_network_later'
+(RMX-OS) Script:3371:in `update'
+Scene_Map:104:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Wed May 21 11:39:17 Eastern Daylight Time 2014:
+Section059:2103:in `initialize'No such file or directory - Data/dexdata.dat
+(RMX-OS) Script:2667:in `rmxos_deserialize_object'
+SpriteWindow:2103:in `open'
+SpriteWindow:2103:in `pbRgssOpen'
+PokemonMap:379:in `pbOpenDexData'
+PokeBattle_Pokemon:801:in `__mf_initialize'
+PokemonMultipleForms:109:in `initialize'
+(eval):1:in `new'
+(eval):1:in `rmxos_deserialize_object'
+(RMX-OS) Script:2650:in `eval'
+(RMX-OS) Script:2667:in `rmxos_deserialize_object'
+(RMX-OS) Script:2650:in `rmxos_deserialize_collection'
+(RMX-OS) Script:2630:in `each'
+(RMX-OS) Script:2630:in `rmxos_deserialize_collection'
+(RMX-OS) Script:2605:in `rmxos_deserialize'
+(RMX-OS) Script:2593:in `each_index'
+(RMX-OS) Script:2593:in `rmxos_deserialize'
+(RMX-OS) Script:2246:in `load_game'
+(RMX-OS) Script:2242:in `each'
+(RMX-OS) Script:2242:in `load_game'
+(RMX-OS) Script:2236:in `each'
+(RMX-OS) Script:2236:in `load_game'
+(RMX-OS) Script:1189:in `check_loading'
+(RMX-OS) Script:925:in `listen'
+(RMX-OS) Script:921:in `each'
+(RMX-OS) Script:921:in `listen'
+(RMX-OS) Script:6256:in `update'
+(RMX-OS) Script:5427:in `main'
+(RMX-OS) Script:5424:in `loop'
+(RMX-OS) Script:5429:in `main'
+(RMX-OS) Main:47
+
+Wed May 21 11:58:26 Eastern Daylight Time 2014:
+cannot convert Fixnum into String
+PokemonField:1505:in `+'
+PokemonField:1505:in `pbGetPlayerCharset'
+PokemonField:1528:in `pbUpdateVehicle'
+PokemonField:1539:in `pbCancelVehicles'
+Scene_Map:225:in `transfer_player_rmxos_later'
+(RMX-OS) Script:3770:in `transfer_player'
+Scene_Map:110:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Wed May 21 11:59:43 Eastern Daylight Time 2014:
+cannot convert Fixnum into String
+PokemonField:1505:in `+'
+PokemonField:1505:in `pbGetPlayerCharset'
+PokemonField:1528:in `pbUpdateVehicle'
+PokemonField:1539:in `pbCancelVehicles'
+Scene_Map:225:in `transfer_player_rmxos_later'
+(RMX-OS) Script:3770:in `transfer_player'
+Scene_Map:110:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Wed May 21 12:00:34 Eastern Daylight Time 2014:
+cannot convert Fixnum into String
+PokemonField:1505:in `+'
+PokemonField:1505:in `pbGetPlayerCharset'
+PokemonField:1528:in `pbUpdateVehicle'
+PokemonField:1539:in `pbCancelVehicles'
+Scene_Map:225:in `transfer_player_rmxos_later'
+(RMX-OS) Script:3770:in `transfer_player'
+Scene_Map:110:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Wed May 21 22:48:23 Eastern Daylight Time 2014:
+Script error within event 16, map 31 (Route 3):
+Exception: RuntimeError
+Message: Section057:393:in `load_bitmap'Failed to load the bitmap located at: Graphics/Transitions/vsBar41
+***Full script:
+pbTrainerBattle(PBTrainers::RIVAL1,"Blue",_I("Not too shabby."),false,0)
+Interpreter**:243:in `pbExecuteScript'
+PokemonField:697:in `pbBattleAnimation'
+PokemonTrainers:424:in `pbTrainerBattle'
+(eval):1:in `pbExecuteScript'
+Interpreter**:811:in `eval'
+Interpreter**:243:in `pbExecuteScript'
+Interpreter**:811:in `command_111'
+Interpreter**:320:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+
+Interpreter**:276:in `pbExecuteScript'
+Interpreter**:811:in `command_111'
+Interpreter**:320:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Wed May 21 22:50:39 Eastern Daylight Time 2014:
+Script error within event 16, map 31 (Route 3):
+Exception: RuntimeError
+Message: Section057:393:in `load_bitmap'Failed to load the bitmap located at: Graphics/Transitions/vsTrainer41
+***Full script:
+pbTrainerBattle(PBTrainers::RIVAL1,"Blue",_I("Not too shabby."),false,0)
+Interpreter**:243:in `pbExecuteScript'
+PokemonField:736:in `pbBattleAnimation'
+PokemonTrainers:424:in `pbTrainerBattle'
+(eval):1:in `pbExecuteScript'
+Interpreter**:811:in `eval'
+Interpreter**:243:in `pbExecuteScript'
+Interpreter**:811:in `command_111'
+Interpreter**:320:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+
+Interpreter**:276:in `pbExecuteScript'
+Interpreter**:811:in `command_111'
+Interpreter**:320:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Wed May 21 22:56:14 Eastern Daylight Time 2014:
+Script error within event 1, map 36 (Pokémon League):
+Exception: NoMethodError
+Message: (eval):1:in `pbExecuteScript'undefined method `pbPokemonFollow' for #<Interpreter:0xaf563d0>
+***Full script:
+pbPokemonFollow(10)
+
+Interpreter**:243:in `pbExecuteScript'
+Interpreter**:1623:in `eval'
+Interpreter**:243:in `pbExecuteScript'
+Interpreter**:1623:in `command_355'
+Interpreter**:494:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+
+Interpreter**:276:in `pbExecuteScript'
+Interpreter**:1623:in `command_355'
+Interpreter**:494:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Wed May 21 23:09:28 Eastern Daylight Time 2014:
+wrong number of arguments(1 for 0)
+PokemonHiddenMoves:595:in `transfer_player'
+PokemonHiddenMoves:595:in `pbDive'
+PokemonHiddenMoves:587:in `pbFadeOutIn'
+PokemonHiddenMoves:587:in `pbDive'
+PokemonHiddenMoves:673
+PokemonHiddenMoves:670:in `call'
+PBEvent:54:in `trigger'
+PBEvent:49:in `each'
+PBEvent:49:in `trigger'
+Scene_Map:171:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Wed May 21 23:30:06 Eastern Daylight Time 2014:
+wrong number of arguments(1 for 0)
+PokemonHiddenMoves:595:in `transfer_player'
+PokemonHiddenMoves:595:in `pbDive'
+PokemonHiddenMoves:587:in `pbFadeOutIn'
+PokemonHiddenMoves:587:in `pbDive'
+PokemonHiddenMoves:673
+PokemonHiddenMoves:670:in `call'
+PBEvent:54:in `trigger'
+PBEvent:49:in `each'
+PBEvent:49:in `trigger'
+Scene_Map:171:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Thu May 22 00:00:30 Eastern Daylight Time 2014:
+undefined method `[]' for nil:NilClass
+PokemonField:1426
+PokemonField:1423:in `call'
+PBEvent:54:in `trigger'
+PBEvent:49:in `each'
+PBEvent:49:in `trigger'
+Game_Character_2:67:in `update_move'
+Game_Character_2:6:in `update_old2'
+Walk_Run:96:in `update_rmxos_later'
+(RMX-OS) Script:3231:in `update'
+(RMX-OS) Script:880:in `update_map_players'
+(RMX-OS) Script:880:in `each_value'
+(RMX-OS) Script:880:in `update_map_players'
+(RMX-OS) Script:3751:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Thu May 22 00:12:10 Eastern Daylight Time 2014:
+undefined method `[]' for nil:NilClass
+PokemonField:1426
+PokemonField:1423:in `call'
+PBEvent:54:in `trigger'
+PBEvent:49:in `each'
+PBEvent:49:in `trigger'
+Game_Character_2:67:in `update_move'
+Game_Character_2:6:in `update_old2'
+Walk_Run:96:in `update_rmxos_later'
+(RMX-OS) Script:3231:in `update'
+(RMX-OS) Script:880:in `update_map_players'
+(RMX-OS) Script:880:in `each_value'
+(RMX-OS) Script:880:in `update_map_players'
+(RMX-OS) Script:3751:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Thu May 22 17:18:01 Eastern Daylight Time 2014:
+An existing connection was forcibly closed by the remote host.
+(RMX-OS) Script:2475:in `check'
+(RMX-OS) Script:2426:in `recv'
+(RMX-OS) Script:906:in `listen'
+(RMX-OS) Script:3750:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:10:01 Eastern Daylight Time 2014:
+Error! Saving for class BattleChallenge undefined!
+(RMX-OS) Script:2529:in `rmxos_serialize'
+(RMX-OS) Script:2515:in `each'
+(RMX-OS) Script:2515:in `rmxos_serialize'
+(RMX-OS) Script:2182:in `send_save_data'
+(RMX-OS) Script:2178:in `each'
+(RMX-OS) Script:2178:in `send_save_data'
+(RMX-OS) Script:2211:in `save'
+(RMX-OS) Script:3772:in `transfer_player'
+Scene_Map:110:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:10:33 Eastern Daylight Time 2014:
+Error! Saving for class BattleChallenge undefined!
+(RMX-OS) Script:2529:in `rmxos_serialize'
+(RMX-OS) Script:2515:in `each'
+(RMX-OS) Script:2515:in `rmxos_serialize'
+(RMX-OS) Script:2182:in `send_save_data'
+(RMX-OS) Script:2178:in `each'
+(RMX-OS) Script:2178:in `send_save_data'
+(RMX-OS) Script:2211:in `save'
+(RMX-OS) Script:3772:in `transfer_player'
+Scene_Map:110:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:13:31 Eastern Daylight Time 2014:
+Error! Saving for class BattleChallenge undefined!
+(RMX-OS) Script:2529:in `rmxos_serialize'
+(RMX-OS) Script:2515:in `each'
+(RMX-OS) Script:2515:in `rmxos_serialize'
+(RMX-OS) Script:2182:in `send_save_data'
+(RMX-OS) Script:2178:in `each'
+(RMX-OS) Script:2178:in `send_save_data'
+(RMX-OS) Script:2211:in `save'
+(RMX-OS) Script:3772:in `transfer_player'
+Scene_Map:110:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:19:45 Eastern Daylight Time 2014:
+undefined method `each' for nil:NilClass
+PokemonShadowPokemon:465
+PokemonShadowPokemon:464:in `call'
+PBEvent:54:in `trigger'
+PBEvent:49:in `each'
+PBEvent:49:in `trigger'
+PokemonField:1490:in `pbOnStepTaken'
+Game_Player_:449:in `update_old'
+Walk_Run:75:in `update_network_later'
+(RMX-OS) Script:3371:in `update'
+Scene_Map:104:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:20:33 Eastern Daylight Time 2014:
+Error! Saving for class BattleChallenge undefined!
+(RMX-OS) Script:2529:in `rmxos_serialize'
+(RMX-OS) Script:2515:in `each'
+(RMX-OS) Script:2515:in `rmxos_serialize'
+(RMX-OS) Script:2182:in `send_save_data'
+(RMX-OS) Script:2178:in `each'
+(RMX-OS) Script:2178:in `send_save_data'
+(RMX-OS) Script:2211:in `save'
+(RMX-OS) Script:3772:in `transfer_player'
+Scene_Map:110:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:24:13 Eastern Daylight Time 2014:
+Error! Saving for class BattleChallenge undefined!
+(RMX-OS) Script:2529:in `rmxos_serialize'
+(RMX-OS) Script:2515:in `each'
+(RMX-OS) Script:2515:in `rmxos_serialize'
+(RMX-OS) Script:2182:in `send_save_data'
+(RMX-OS) Script:2178:in `each'
+(RMX-OS) Script:2178:in `send_save_data'
+(RMX-OS) Script:2211:in `save'
+(RMX-OS) Script:3772:in `transfer_player'
+Scene_Map:110:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:25:56 Eastern Daylight Time 2014:
+Error! Saving for class BattleChallenge undefined!
+(RMX-OS) Script:2529:in `rmxos_serialize'
+(RMX-OS) Script:2515:in `each'
+(RMX-OS) Script:2515:in `rmxos_serialize'
+(RMX-OS) Script:2182:in `send_save_data'
+(RMX-OS) Script:2178:in `each'
+(RMX-OS) Script:2178:in `send_save_data'
+(RMX-OS) Script:2211:in `save'
+(RMX-OS) Script:3772:in `transfer_player'
+Scene_Map:110:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:27:28 Eastern Daylight Time 2014:
+Error! Saving for class BattleChallenge undefined!
+(RMX-OS) Script:2529:in `rmxos_serialize'
+(RMX-OS) Script:2515:in `each'
+(RMX-OS) Script:2515:in `rmxos_serialize'
+(RMX-OS) Script:2182:in `send_save_data'
+(RMX-OS) Script:2178:in `each'
+(RMX-OS) Script:2178:in `send_save_data'
+(RMX-OS) Script:2211:in `save'
+(RMX-OS) Script:3772:in `transfer_player'
+Scene_Map:110:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:29:15 Eastern Daylight Time 2014:
+Error! Saving for class BattleChallenge undefined!
+(RMX-OS) Script:2529:in `rmxos_serialize'
+(RMX-OS) Script:2515:in `each'
+(RMX-OS) Script:2515:in `rmxos_serialize'
+(RMX-OS) Script:2182:in `send_save_data'
+(RMX-OS) Script:2178:in `each'
+(RMX-OS) Script:2178:in `send_save_data'
+(RMX-OS) Script:2211:in `save'
+(RMX-OS) Script:3772:in `transfer_player'
+Scene_Map:110:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:30:42 Eastern Daylight Time 2014:
+Error! Saving for class BattleChallenge undefined!
+(RMX-OS) Script:2529:in `rmxos_serialize'
+(RMX-OS) Script:2515:in `each'
+(RMX-OS) Script:2515:in `rmxos_serialize'
+(RMX-OS) Script:2182:in `send_save_data'
+(RMX-OS) Script:2178:in `each'
+(RMX-OS) Script:2178:in `send_save_data'
+(RMX-OS) Script:2211:in `save'
+(RMX-OS) Script:3772:in `transfer_player'
+Scene_Map:110:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:32:55 Eastern Daylight Time 2014:
+Error! Saving for class BattleChallenge undefined!
+(RMX-OS) Script:2529:in `rmxos_serialize'
+(RMX-OS) Script:2515:in `each'
+(RMX-OS) Script:2515:in `rmxos_serialize'
+(RMX-OS) Script:2182:in `send_save_data'
+(RMX-OS) Script:2178:in `each'
+(RMX-OS) Script:2178:in `send_save_data'
+(RMX-OS) Script:2211:in `save'
+(RMX-OS) Script:3772:in `transfer_player'
+Scene_Map:110:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:34:21 Eastern Daylight Time 2014:
+Error! Saving for class BattleChallenge undefined!
+(RMX-OS) Script:2529:in `rmxos_serialize'
+(RMX-OS) Script:2515:in `each'
+(RMX-OS) Script:2515:in `rmxos_serialize'
+(RMX-OS) Script:2182:in `send_save_data'
+(RMX-OS) Script:2178:in `each'
+(RMX-OS) Script:2178:in `send_save_data'
+(RMX-OS) Script:2211:in `save'
+(RMX-OS) Script:3772:in `transfer_player'
+Scene_Map:110:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:35:22 Eastern Daylight Time 2014:
+Error! Saving for class BattleChallenge undefined!
+(RMX-OS) Script:2529:in `rmxos_serialize'
+(RMX-OS) Script:2515:in `each'
+(RMX-OS) Script:2515:in `rmxos_serialize'
+(RMX-OS) Script:2182:in `send_save_data'
+(RMX-OS) Script:2178:in `each'
+(RMX-OS) Script:2178:in `send_save_data'
+(RMX-OS) Script:2211:in `save'
+(RMX-OS) Script:3772:in `transfer_player'
+Scene_Map:110:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:38:38 Eastern Daylight Time 2014:
+Script error within event 7, map 52 (Battle Frontier):
+Exception: ArgumentError
+Message: (eval):1:in `pbReceiveItem'wrong number of arguments(0 for 1)
+***Full script:
+Kernel.pbReceiveItem
+(PBItems::BICYCLE)
+
+Interpreter**:243:in `pbExecuteScript'
+(eval):1:in `pbExecuteScript'
+Interpreter**:1623:in `eval'
+Interpreter**:243:in `pbExecuteScript'
+Interpreter**:1623:in `command_355'
+Interpreter**:494:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+
+Interpreter**:276:in `pbExecuteScript'
+Interpreter**:1623:in `command_355'
+Interpreter**:494:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:42:29 Eastern Daylight Time 2014:
+Script error within event 7, map 52 (Battle Frontier):
+Exception: NoMethodError
+Message: (eval):1:in `pbExecuteScript'undefined method `pbReceiveKeyItem' for Kernel:Module
+***Full script:
+Kernel.pbReceiveKeyItem
+(PBItems::BICYCLE)
+
+Interpreter**:243:in `pbExecuteScript'
+Interpreter**:1623:in `eval'
+Interpreter**:243:in `pbExecuteScript'
+Interpreter**:1623:in `command_355'
+Interpreter**:494:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+
+Interpreter**:276:in `pbExecuteScript'
+Interpreter**:1623:in `command_355'
+Interpreter**:494:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:44:31 Eastern Daylight Time 2014:
+Script error within event 7, map 52 (Battle Frontier):
+Exception: NoMethodError
+Message: (eval):1:in `pbExecuteScript'undefined method `bicycle=' for #<PokeBattle_Trainer:0xb24b868>
+***Full script:
+$Trainer.bicycle=true
+
+Interpreter**:243:in `pbExecuteScript'
+Interpreter**:1623:in `eval'
+Interpreter**:243:in `pbExecuteScript'
+Interpreter**:1623:in `command_355'
+Interpreter**:494:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+
+Interpreter**:276:in `pbExecuteScript'
+Interpreter**:1623:in `command_355'
+Interpreter**:494:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 01:46:59 Eastern Daylight Time 2014:
+Script error within event 7, map 52 (Battle Frontier):
+Exception: ArgumentError
+Message: (eval):1:in `pbReceiveItem'wrong number of arguments(0 for 1)
+***Full script:
+Kernel.pbReceiveItem
+(PBItems::BICYCLE)
+
+Interpreter**:243:in `pbExecuteScript'
+(eval):1:in `pbExecuteScript'
+Interpreter**:1623:in `eval'
+Interpreter**:243:in `pbExecuteScript'
+Interpreter**:1623:in `command_355'
+Interpreter**:494:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+
+Interpreter**:276:in `pbExecuteScript'
+Interpreter**:1623:in `command_355'
+Interpreter**:494:in `execute_command'
+Interpreter**:193:in `update'
+Interpreter**:106:in `loop'
+Interpreter**:198:in `update'
+Scene_Map:103:in `update_rmxos_later'
+Scene_Map:101:in `loop'
+Scene_Map:114:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 02:10:21 Eastern Daylight Time 2014:
+wrong number of arguments(1 for 0)
+PokemonHiddenMoves:595:in `transfer_player'
+PokemonHiddenMoves:595:in `pbDive'
+PokemonHiddenMoves:587:in `pbFadeOutIn'
+PokemonHiddenMoves:587:in `pbDive'
+PokemonHiddenMoves:673
+PokemonHiddenMoves:670:in `call'
+PBEvent:54:in `trigger'
+PBEvent:49:in `each'
+PBEvent:49:in `trigger'
+Scene_Map:171:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 02:11:38 Eastern Daylight Time 2014:
+wrong number of arguments(1 for 0)
+PokemonHiddenMoves:595:in `transfer_player'
+PokemonHiddenMoves:595:in `pbDive'
+PokemonHiddenMoves:587:in `pbFadeOutIn'
+PokemonHiddenMoves:587:in `pbDive'
+PokemonHiddenMoves:673
+PokemonHiddenMoves:670:in `call'
+PBEvent:54:in `trigger'
+PBEvent:49:in `each'
+PBEvent:49:in `trigger'
+Scene_Map:171:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Sat May 24 02:14:37 Eastern Daylight Time 2014:
+wrong number of arguments(1 for 0)
+PokemonHiddenMoves:595:in `transfer_player'
+PokemonHiddenMoves:595:in `pbDive'
+PokemonHiddenMoves:587:in `pbFadeOutIn'
+PokemonHiddenMoves:587:in `pbDive'
+PokemonHiddenMoves:673
+PokemonHiddenMoves:670:in `call'
+PBEvent:54:in `trigger'
+PBEvent:49:in `each'
+PBEvent:49:in `trigger'
+Scene_Map:171:in `update_rmxos_later'
+(RMX-OS) Script:3755:in `update'
+Scene_Map:68:in `main_rmxos_later'
+Scene_Map:65:in `loop'
+Scene_Map:72:in `main_rmxos_later'
+(RMX-OS) Script:3738:in `main'
+(RMX-OS) Main:47
+
+Thu Sep 18 12:15:24 Eastern Daylight Time 2014:
+uninitialized constant PokeBattle_Trainer::PBSpecies
+PokeBattle_Trainer:194:in `initialize'
+(MRMX-OS) Scenes:151:in `new'
+(MRMX-OS) Scenes:151:in `create_game_data'
+(RMX-OS) Script:5594:in `setup_scene'
+(RMX-OS) Script:5421:in `main'
+(RMX-OS) Main:47
+
+Thu Sep 18 12:15:31 Eastern Daylight Time 2014:
+uninitialized constant PokeBattle_Trainer::PBSpecies
+PokeBattle_Trainer:194:in `initialize'
+(MRMX-OS) Scenes:151:in `new'
+(MRMX-OS) Scenes:151:in `create_game_data'
+(RMX-OS) Script:5594:in `setup_scene'
+(RMX-OS) Script:5421:in `main'
+(RMX-OS) Main:47
+
+Thu Sep 18 18:13:04 Eastern Daylight Time 2014:
+An established connection was aborted by the software in your host machine.
+(RMX-OS) Script:2475:in `check'
+(RMX-OS) Script:2426:in `recv'
+(RMX-OS) Script:906:in `listen'
+(RMX-OS) Script:5854:in `update'
+(RMX-OS) Script:5427:in `main'
+(RMX-OS) Script:5424:in `loop'
+(RMX-OS) Script:5429:in `main'
+(RMX-OS) Main:47
+
